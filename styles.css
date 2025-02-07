@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Container to hold left and right boxes */
+.container_primary {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    border: 1px solid #0000FF; /* Blue border */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ADD8E6; /* Light blue background */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Left and right box styling */
+.left-box, .right-box {
+    flex: 1; /* Each box takes up equal space */
+    border: 1px solid #0000FF; /* Blue border */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ADD8E6; /* Light blue background */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 10px; /* Space between boxes */
+}
